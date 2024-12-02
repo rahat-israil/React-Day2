@@ -1,6 +1,7 @@
 
 import './App.css'
 import Counter from './Counter'
+import Team from './Team'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <button onClick={() => addToFive(5)}>Add to 5</button>
 
       <Counter></Counter>
+      <Team></Team>
       
     </>
   )
