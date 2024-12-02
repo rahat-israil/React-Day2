@@ -1,5 +1,6 @@
 
 import './App.css'
+import Counter from './Counter'
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
       <button onClick={() => { alert('Button 3 is Clicked') }}>Button 3</button>    
       {/* With parameter Function  */}
       <button onClick={() => addToFive(5)}>Add to 5</button>
+
+      <Counter></Counter>
       
     </>
   )
